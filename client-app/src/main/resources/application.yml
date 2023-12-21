@@ -1,0 +1,21 @@
+server:
+  port: 8083
+
+spring:
+  cloud:
+    config:
+      enabled: false
+
+  application:
+    name: SERVICE-CLIENT
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clientservicedb?createDatabaseIfNotExist=true
+    username: root
+    password: 123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
