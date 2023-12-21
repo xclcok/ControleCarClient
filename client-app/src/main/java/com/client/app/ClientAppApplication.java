@@ -18,10 +18,10 @@ public class ClientAppApplication {
 	@Bean
 	CommandLineRunner inCommandLineRunner(ClientRepository clientRepository){
 		return  args -> {
-			clientRepository.save(new Client(Long.parseLong("1"),"Hamza",22));
-			clientRepository.save(new Client(Long.parseLong("2"),"Ahmed",20));
-			clientRepository.save(new Client(Long.parseLong("3"),"Saad",32));
-			clientRepository.save(new Client(Long.parseLong("4"),"Kamal",19));
+			clientRepository.save(new Client(Long.parseLong("1"),"mousaab",33));
+			clientRepository.save(new Client(Long.parseLong("2"),"said",22));
+			clientRepository.save(new Client(Long.parseLong("3"),"moussa",23));
+			clientRepository.save(new Client(Long.parseLong("4"),"abdo",98));
 		};
 
 	}

@@ -28,9 +28,9 @@ public class CarServiceApplication {
 	@Bean
 	CommandLineRunner inCommandLineRunner(CarRepository carRepository){
 		return  args -> {
-			carRepository.save(new Car(Long.parseLong("1"),"TOYOTA","2012C","1SS5BC",Long.parseLong("1")));
-			carRepository.save(new Car(Long.parseLong("2"),"MERCEDES","2446C","9N30BC",Long.parseLong("2")));
-			carRepository.save(new Car(Long.parseLong("3"),"AUDI","8991A","EF550",Long.parseLong("3")));
+			carRepository.save(new Car(Long.parseLong("1"),"bmw","serie1","7shs",Long.parseLong("1")));
+			carRepository.save(new Car(Long.parseLong("2"),"mercedes","class a","ujs",Long.parseLong("2")));
+			carRepository.save(new Car(Long.parseLong("3"),"peugeout","hui","ssns9",Long.parseLong("3")));
 
 		};
 
